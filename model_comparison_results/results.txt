@@ -1,0 +1,46 @@
+MNIST Results:
+
+False:
+Train Loss: 0.0069
+Test Loss: 0.0532
+Train Accuracy: 99.78%
+Test Accuracy: 98.87%
+Average Training Time per Epoch: 22.38s
+Average Inference Time per Epoch: 2.45s
+Total Parameters: 274442
+Final Gradient Norm: 0.0805
+
+CIFAR-10 Results:
+
+DeepFullyConnected:
+Train Loss: 0.2724
+Test Loss: 2.5158
+Train Accuracy: 90.46%
+Test Accuracy: 54.04%
+Average Training Time per Epoch: 16.34s
+Average Inference Time per Epoch: 2.04s
+Total Parameters: 3837066
+Final Gradient Norm: 1.9518
+Overfitting (Train-Test Acc Diff): 36.42%
+
+ResNetCIFAR:
+Train Loss: 0.0987
+Test Loss: 1.3981
+Train Accuracy: 96.54%
+Test Accuracy: 71.66%
+Average Training Time per Epoch: 22.57s
+Average Inference Time per Epoch: 2.97s
+Total Parameters: 313994
+Final Gradient Norm: 3.4536
+Overfitting (Train-Test Acc Diff): 24.88%
+
+RegularizedResNetCIFAR:
+Train Loss: 0.3411
+Test Loss: 0.8687
+Train Accuracy: 87.71%
+Test Accuracy: 70.80%
+Average Training Time per Epoch: 23.43s
+Average Inference Time per Epoch: 2.96s
+Total Parameters: 313994
+Final Gradient Norm: 4.2282
+Overfitting (Train-Test Acc Diff): 16.91%
